@@ -1,12 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Git rules!</title>
-</head>
-<body>
-    
-</body>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container block-top">
+        <nav class="nav">
+          <a href="./index.html" class="logo link"
+            ><span class="logo-first">Web</span><span class="logo-second">Studio</span></a
+          >
+          <ul class="site-nav list">
+            <li class="nav-item">
+              <a class="nav-link current link" href="./index.html">Студія</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="site-contacts list">
+          <li class="contacts-item">
+            <a class="contacts-link link" href="mailto:info@devstudio.com" aria-label="Написать письмо">
+            <svg class="button-icon">
+                <use href="./images/symbol-defs-optimized.svg#icon-envelope" width="16" height="12"  aria-label="Позвонить нам"></use>
+              </svg>
+            info@devstudio.com</a>
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link link" href="tel:+380961111111">
+              <svg class="button-icon">
+                <use href="./images/symbol-defs-optimized.svg#icon-smartphone" width="10" height="16"></use>
+              </svg>
+              +38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- Герой-->
+      
+      <section class="hero section">        
+        <div class="container">
+          <div class="hero-box">
+            <h1 class="hero-title title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="hero-button" type="button">
+              <p class="button-title type">Замовити послугу</p>
+            </button>
+          </div>
+          </div>       
+      </section>
+      
+      <!--Скрытый Наши особенности-->
+      <section class="site-features section">
+        <div class="container">
+          <h2 class="visually-hidden title">Наші особливості</h2>          
+            <ul class="features list">
+              <li class="features-item">
+                <div class="thumb">
+                  <svg> 
+                    <use href="./images/symbol-defs-optimized.svg#icon-antenna-1" width="70" height="70"></use>
+                  </svg>
+                </div>
+                <h3 class="features-title title">Увага до деталей</h3>
+                <p class="features-desc type">
+                  Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+                </p>
+              </li>
+              <li class="features-item">
+                <div class="thumb">
+                  <svg> 
+                    <use href="./images/symbol-defs-optimized.svg#icon-clock-1" width="70" height="70"></use>
+                  </svg>
+                </div>
+                <h3 class="features-title title">Пунктуальність</h3>
+                <p class="features-desc type">
+                  Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                </p>
+              </li>
+              <li class="features-item">
+                <div class="thumb">
+                  <svg> 
+                    <use href="./images/symbol-defs-optimized.svg#icon-diagram-1" width="70" height="70"></use>
+                  </svg>
+                </div>
+                <h3 class="features-title title">Планування</h3>
+                <p class="features-desc type">
+                  Так само консультація з широким активом значною мірою зумовлює.
+                </p>
+              </li>
+              <li class="features-item">
+                <div class="thumb">
+                  <svg> 
+                    <use href="./images/symbol-defs-optimized.svg#icon-astronaut-1" width="70" height="70"></use>
+                  </svg>
+                </div>
+                <h3 class="features-title title">Сучасні технології</h3>
+                <p class="features-desc type">
+                  Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--Чем мы заниманиемся-->
+      <section class="site-services section">
+        <div class="container">
+          <h2 class="services-title title">Чим ми займаємось</h2>
+             <ul class="services list">
+              <li class="services-item">
+                <img src="./images/photo_typing.jpg" alt="Печатает на клавиаутре" width="370" />
+              </li>
+              <li class="services-item">
+                <img src="./images/photo_desktop.jpg" alt="Выбирает оформление" width="370" />
+              </li>
+              <li class="services-item">
+                <img src="./images/photo_design.jpg" alt="Делает дизайн" width="370" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--Наша команда-->
+
+      <section class="site-workers section">
+        <div class="container">
+          <h2 class="workers-title title">Наша команда</h2>
+             <ul class="workers list">
+              <li class="workers-item">
+                <img src="./images/product_designer.jpg" alt="продуктовый дизайнер" width="270" />
+                <div class="workers-section">
+                  <h3 class="workers-name title">Игорь Демьяненко</h3>
+                  <p lang="en" class="workers-speciality type">Product Designer</p>
+                <div class="workers-icon">
+                  <div class="social-icon">
+                  <svg class="svg-icon">                    
+                      <a class="social-link" href="#" aria-label="Instagram">
+                        <use href="./images/symbol-defs-optimized.svg#icon-instagram-2"></use>
+                      </a> 
+                  </svg>
+                </div>
+                <div class="social-icon">
+                  <svg class="svg-icon">
+                        <a class="social-link" href="#" aria-label="Twitter">
+                        <use href="./images/symbol-defs-optimized.svg#icon-twitter-1"></use>
+                      </a>
+                  </svg>
+                </div>
+                <div class="social-icon">
+                  <svg class="svg-icon">
+                      <a class="social-link" href="#" aria-label="Facebook">
+                        <use href="./images/symbol-defs-optimized.svg#icon-facebook-1"></use>
+                      </a>
+                  </svg> 
+                </div>
+                <div class="social-icon">
+                  <svg class="svg-icon">   
+                      <a class="social-link" href="#" aria-label="LinkedIn">
+                        <use href="./images/symbol-defs-optimized.svg#icon-linkedin-1"></use>
+                      </a>              
+                  </svg>
+                </div>
+                </div>
+                </div>
+              </li>
+              <li class="workers-item">
+                <img src="./images/fnd_developer.jpg" alt="разработчик" width="270" />
+                <div class="workers-section">
+                  <h3 class="workers-name title">Ольга Репина</h3>
+                  <p lang="en" class="workers-speciality type">Frontend Developer</p>
+                </div>
+              </li>
+              <li class="workers-item">
+                <img src="./images/marketing.jpg" alt="маркетолог" width="270" />
+                <div class="workers-section">
+                  <h3 class="workers-name title">Николай Тарасов</h3>
+                  <p lang="en" class="workers-speciality type">Marketing</p>
+                </div>
+              </li>
+              <li class="workers-item">
+                <img src="./images/designer.jpg" alt="дизайнер" width="270" />
+                <div class="workers-section">
+                  <h3 class="workers-name title">Михаил Ермаков</h3>
+                  <p lang="en" class="workers-speciality type">UI Designer</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Подвал-->
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo link"
+          ><span class="logo-first">Web</span><span class="logo-third">Studio</span></a
+        >
+        <address class="site-address">
+          <ul class="footer-contacts list">
+            <li class="address-item">
+              <a
+                class="address link"
+                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                target="_blank"
+                rel="noopener noreferrer"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="address-item">
+              <a class="mail link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li>
+              <a class="tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
 </html>
